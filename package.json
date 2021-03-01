@@ -3,10 +3,13 @@
   "version": "1.0.0",
   "description": "A simple project with a single failing test",
   "scripts": {
-    "test": "mocha test/**/*spec.js"
+    "test": "mocha test/**/*spec.js",
+    "start": "node index.js"
   },
   "dependencies": {
     "chai": "^4.1.2",
-    "mocha": "^4.0.1"
+    "mocha": "^4.0.1",
+    "pg": "^8.5.1",
+    "prompt": "^1.1.0"
   }
 }
